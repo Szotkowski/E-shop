@@ -1,0 +1,69 @@
+/*CSS*/
+
+body{
+    background: rgb(72, 199, 216);
+    margin-top: 5%;
+    margin-bottom: auto;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tabulka{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    background-color:white;
+}
+
+.tabulka1{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    margin: auto;
+    background-color:rgb(255, 255, 255);
+}
+
+.tabulka2 { 
+    width: 50%;
+    height: 50%;
+    text-align: left;
+    margin: auto;
+    background-color:rgb(255, 255, 255);
+}
+
+.obrazek{
+    height: 100px; 
+    width: 1380px; 
+}
+
+.obr {
+    height: 300px; 
+    width: 200px; 
+}
+
+.obr1 {
+    height: 300px; 
+    width: 400px;
+    text-align: left; 
+}
+
+.kos {
+    height: 50px; 
+    width: 60px;
+    box-align: right;
+}
+
+.h1{
+    text-align: center;
+}
+
+.nazev{
+    text-align: center;
+}
+
+.td{
+    text-align: right;
+    border: 5ch;
+}
