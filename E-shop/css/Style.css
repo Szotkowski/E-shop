@@ -18,8 +18,11 @@ body{
     height: 100%;
     text-align: center;
     margin: auto;
-    background-color:#55CBF2;
-    border: none;
+    background-color:#31A0A7;
+    border: 5px solid #31A0A7;
+    padding: 5px;
+    margin: 1%;
+    border-collapse: collapse;
 }
 
 .tabulka1{
@@ -79,5 +82,5 @@ body{
     height: 100%;
     background: hsl(324deg 100% 50%);
     background-image: linear-gradient(45deg, #4F8AF9 0%, #55CBF2 100%);
-    border-radius: 10% 10% 10% 10% / 10% 10% 10% 10%;
+    border-radius: 50% 50% 50% 50% / 10% 10% 10% 10%;
 }
