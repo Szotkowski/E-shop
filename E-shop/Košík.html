@@ -2,42 +2,111 @@
 <html lang="cs-cz" dir="ltr">
 <head>
     <meta charset="utf-8">
-    <title>SmartCard</title>
+    <title>
+        SmartCard
+    </title>
     <link rel="stylesheet" href="css\Style.css">
+    <link rel="icon" href="pictures\Icon.png" type="image/x/icon">
+    <meta name="theme-color" content="#31A0A7">
 </head>
 <header>
+    <center>
     <a href="Hlavní.html">
-    <img class=obrazek src="pictures\pro.png" alt="Smartcard"></a>
-
+        <img class=obrazek src="pictures\pro.png" alt="Smartcard">
+    </a>
     <table border="1" class="tabulka">
         <tr>
-            <td><a href="Hlavní.html">Hlavní stránka</a></td>
-            <td><a href="Informace.html">Informace</a></td>
-            <td><a href="Košík.html">Košík</a></td>
+            <td>
+                <a href="Hlavní.html">
+                    <button class="button">
+                        <font size="5">
+                            Hlavní stránka
+                        </font>
+                    </button>
+                </a>
+            </td>
+            <td>
+                <a href="Informace.html">
+                    <button class="button">
+                        <font size="5">
+                            Informace
+                        </font>
+                    </button>
+                </a>
+            </td>
+            <td>
+                <a href="Košík.html">
+                    <button class="button">
+                        <font size="5">
+                            Košík
+                        </font>
+                    </button>
+                </a>
+            </td>
         </tr>
     </table>
     <br>
-    <h1 class=h1>Košík</h1>
+    <h1 class="h1">
+        Košík
+    </h1>
+    </center>
 </header>
 <body>
-    <script src = "javascript\js.js"></script>
-    <form name = kosik><table border="1" class=tabulka>
-        <tr>
-            <td><img src = "pictures\Smartcard.png"></td>
-            <td>Kartičky pro smrady k vánocům, jelikož maminky jsou líné něco vymýšlet a peníze jsou na charitu. 
-                Pro zoufalé a mentálně nevyrovnané učitelky. Každý den jedna velká milka a čerstvá káva pro hladové a protivné učitelky</td>
-            <td class=nazev><U>Počet kusů</U> <br> <br>1 kus obsahuje: <br>balíček 50 karet <br>hrací kostka <br>návod k použití</td>
-        </tr>
-        <tr>
-            <td><B>Vzdělávací karty</B></td>
-            <td></td>
-            <td><input id="pocet" type="number"> </td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td id = "cena"></td>
-        </tr>
-    </table></form>
+    <script src="javascript\js.js">
+
+    </script>
+    <center>
+    <form name=kosik>
+        <table border="1" class="tabulka">
+            <tr>
+                <td>
+                    <img src = "pictures\Smartcard.png">
+                </td>
+                <td>
+                    Kartičky pro smrady k vánocům, jelikož maminky jsou líné něco vymýšlet a peníze jsou na charitu. 
+                    Pro zoufalé a mentálně nevyrovnané učitelky. Každý den jedna velká milka a čerstvá káva pro hladové a protivné učitelky
+                </td>
+                <td class="nazev">
+                    <U>
+                        Počet kusů
+                    </U>
+                    <br>
+                    <br>
+                    1 kus obsahuje:
+                    <br>
+                    balíček 50 karet
+                    <br>
+                    hrací kostka
+                    <br>
+                    návod k použití
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <B>
+                        Vzdělávací karty
+                    </B>
+                </td>
+                <td>
+
+                </td>
+                <td>
+                    <input id="pocet" type="number" placeholder="  počet  " min="0" max="100" value="0">
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+                <td>
+
+                </td>
+                <td id="cena">
+
+                </td>
+            </tr>
+        </table>
+    </form>
+    </center>
 </body>
 </html>
