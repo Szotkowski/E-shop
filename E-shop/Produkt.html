@@ -2,7 +2,9 @@
 <html lang="cs-cz" dir="ltr">
 <head>
     <meta charset="utf-8">
-    <title>SmartCard</title>
+    <title>
+        SmartCard
+    </title>
     <link rel="stylesheet" href="css\Style.css">
     <link rel="shortcut icon" href="pictures\Smartcard.png" type="image/x-icon">
     <link rel="icon" href="pictures\Smartcard.png" type="image/x-icon">
@@ -10,30 +12,78 @@
     <link href="Košík.html">
 </head>
 <header>
-    <a href="Hlavní.html"><img class=obrazek src="pictures\pro.png" alt="Smartcard"></a>
-    <table border="1" class="tabulka">
-        <tr>
-            <td><a href="Hlavní.html">Hlavní stránka</a></td>
-            <td><a href="Informace.html">Informace</a></td>
-            <td><a href="Košík.html">Košík</a></td>
-        </tr>
-    </table>
+    <center>
+        <a href="Hlavní.html">
+            <img class=obrazek src="pictures\pro.png" alt="Smartcard">
+        </a>
+        <table border="1" class="tabulka">
+            <tr>
+                <td>
+                    <a href="Hlavní.html">
+                        <button class="button">
+                            <font size="5">
+                                Hlavní stránka
+                            </font>
+                        </button>
+                    </a>
+                </td>
+                <td>
+                    <a href="Informace.html">
+                        <button class="button">
+                            <font size="5">
+                                Informace
+                            </font>
+                        </button>
+                    </a>
+                </td>
+                <td>
+                    <a href="Košík.html">
+                        <button class="button">
+                            <font size="5">
+                                Košík
+                            </font>
+                        </button>
+                    </a>
+                </td>
+            </tr>
+        </table>
     <br>
-    <h1 class=h1>Produkt</h1>
+    <h1 class="h1">
+        Produkt
+    </h1>
 </header>
 <body>
-    <script src = "javascript\js.js"></script>
-    <table border="1" class = tabulka2>
+    <script src = "javascript\js.js">
+
+    </script>
+    <center>
+    <table border="1" class="tabulka2">
         <tr>
-            <td colspan="2"> <img border = "4" class=obr1 src="pictures\karta.jpg"> </td>
-            <td>Zábavné vyukové karty obsahují 3 různé typy otázek. Tématy jsou historie,
-                zeměpis a filmy,aby měli děti motivaci tohle hrát.</td>
+            <td colspan="2">
+                <img border="4" class="obr1" src="pictures\karta.jpg">
+            </td>
+            <td>
+                Zábavné vyukové karty obsahují 3 různé typy otázek. Tématy jsou historie,
+                zeměpis a filmy,aby měli děti motivaci tohle hrát.
+            </td>
         </tr>
         <tr>
-            <td><input id="pocet" type="number" placeholder="  počet  " min="0" max="100" value="0"></td>
-            <td><print id="cena">10000000 Kč</print></td>
-            <td><a href="Košík.html"><img src="pictures\košík.png" alt="Po kliknutí se přesunete do košíku."></a></td>
+            <td>
+                Počet:
+                <input id="pocet" type="number"min="0" max="100" value="0">
+            </td>
+            <td>
+                <print id="cena">
+                    100 Kč
+                </print>
+            </td>
+            <td>
+                <a href="Košík.html">
+                    <img src="pictures\košík.png" alt="Po kliknutí se přesunete do košíku.">
+                </a>
+            </td>
         </tr>
     </table>
+    </center>
 </body>
 </html>
