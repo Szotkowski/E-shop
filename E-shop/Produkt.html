@@ -39,9 +39,7 @@
                 <td>
                     <a href="Košík.html">
                         <button class="button">
-                            <font size="5">
-                                Košík
-                            </font>
+                            <img src="pictures\košík.png" alt="Po kliknutí se přesunete do košíku.">
                         </button>
                     </a>
                 </td>
@@ -54,13 +52,15 @@
 </header>
 <body>
     <script src = "javascript\js.js">
-
     </script>
     <center>
     <table border="1" class="tabulka2">
         <tr>
             <td colspan="2">
                 <img border="4" class="obr1" src="pictures\karta.jpg">
+                <br>
+                <a href="#" class="previous">&laquo; Previous</a>
+                <a href="#" class="next">Next &raquo;</a>
             </td>
             <td>
                 Zábavné vyukové karty obsahují 3 různé typy otázek. Tématy jsou historie,
@@ -69,12 +69,12 @@
         </tr>
         <tr>
             <td>
-                Počet:
-                <input id="pocet" type="number"min="0" max="100" value="0">
+                Počet: 
+                <input id="pocet" type="number" min="0" max="100" value="1" onclick="Kosik()">
             </td>
             <td>
                 <print id="cena">
-                    100 Kč
+                    Cena za jeden: 250 Kč
                 </print>
             </td>
             <td>

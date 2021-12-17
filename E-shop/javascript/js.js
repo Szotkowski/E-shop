@@ -1,9 +1,9 @@
 function Kosik() {
-    let Div = document.getElementById("pocet");
-    let cena = document.getElementById("cena");
-    alert(Div);
-    if (Div > 0) {
-        Div = abs(Div);
-        Div.innerHTML = Div;
-    }
+    var count = document.getElementById("pocet").value;
+    sessionStorage.setItem("count", count);
 }
+function Kosik1() {
+    var count = sessionStorage.getItem("count");
+    console.log(count);
+}
+Kosik1();
