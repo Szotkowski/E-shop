@@ -19,9 +19,9 @@ body{
     text-align: center;
     background-color:#31A0A7;
     border: 5px solid #31A0A7;
-    margin: 0%;
     border-collapse: collapse;
-    table-layout: fixed;
+    table-layout: auto;
+    border-radius: 30px;
 }
 
 .tabulka1{
