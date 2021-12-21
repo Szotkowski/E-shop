@@ -9,66 +9,64 @@
     <link rel="shortcut icon" href="pictures\Smartcard.png" type="image/x-icon">
     <link rel="icon" href="pictures\Smartcard.png" type="image/x-icon">
     <meta name="theme-color" content="#31A0A7">
-    <link href="Košík.html">
 </head>
 <header>
-    <center>
-        <a href="Hlavní.html">
-            <img class="obrazek" src="pictures\pro.png" alt="Smartcard">
-        </a>
-        <br>
-        <br>
-        <table border="1" class="tabulka">
-            <tr>
-                <td>
-                    <a href="Hlavní.html">
-                        <button class="button">
-                            <font size="5">
-                                Hlavní stránka
-                            </font>
-                        </button>
-                    </a>
-                </td>
-                <td>
-                    <a href="Informace.html">
-                        <button class="button">
-                            <font size="5">
-                                Informace
-                            </font>
-                        </button>
-                    </a>
-                </td>
-                <td>
-                    <a href="Košík.html">
-                        <button class="button">
-                            <img src="pictures\košík.png" alt="Po kliknutí se přesunete do košíku.">
-                        </button>
-                    </a>
-                </td>
-            </tr>
-        </table>
-        </center>
-        <br>
-        <h1 class="h1">
-            Produkt
-        </h1>
-    </center>
+    <a href="Hlavní.html">
+        <img class="obrazek" src="pictures\pro.png" alt="Smartcard">
+    </a>
+    <br>
+    <br>
+    <table class="tabulka">
+        <tr>
+            <td>
+                <a href="Hlavní.html">
+                    <button class="button">
+                        <p class="tr3">
+                            Hlavní stránka
+                        </p>
+                    </button>
+                </a>
+            </td>
+            <td>
+                <a href="Informace.html">
+                    <button class="button">
+                        <p class="tr3">
+                            Informace
+                        </p>
+                    </button>
+                </a>
+            </td>
+            <td>
+                <a href="Košík.html">
+                    <button class="button">
+                        <img src="pictures\košík.png" alt="Po kliknutí se přesunete do košíku.">
+                    </button>
+                </a>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <h1 class="h1">
+        Produkt
+    </h1>
 </header>
 <body>
     <script src = "javascript\js.js">
+
     </script>
-    <center>
-    <table border="1" class="tabulka2">
+    <table class="tabulka2">
         <tr>
             <td colspan="2">
-                <img border="4" class="obr1" src="pictures\karta.jpg">
+                <img class="obr1" src="pictures\karta.jpg">
                 <br>
                 <a href="#" class="previous">&laquo; Previous</a>
                 <a href="#" class="next">Next &raquo;</a>
             </td>
             <td>
+                <p>
                 Zábavné vyukové karty obsahují 3 různé typy otázek. Tématy jsou historie,
                 zeměpis a filmy,aby měli děti motivaci tohle hrát.
+                </p>
             </td>
         </tr>
         <tr>
@@ -77,9 +75,9 @@
                 <input id="pocet" type="number" min="0" max="100" value="1" onclick="Kosik()">
             </td>
             <td>
-                <print id="cena">
+                <p>
                     Cena za jeden: 250 Kč
-                </print>
+                </p>
             </td>
             <td>
                 <a href="Košík.html">
@@ -88,6 +86,5 @@
             </td>
         </tr>
     </table>
-    </center>
 </body>
 </html>
