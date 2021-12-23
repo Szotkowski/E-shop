@@ -6,4 +6,5 @@ function Kosik() {
 function Kosik1() {
     var newcount = sessionStorage.getItem("count");
     document.getElementById("pocet").setAttribute("value", newcount);
+    sessionStorage.setItem("newcount", newcount);
 }
