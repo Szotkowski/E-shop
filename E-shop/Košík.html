@@ -91,7 +91,7 @@
                 </B>
             </td>
             <td>
-                <input id="pocet" type="number" placeholder="  počet  " min="0" max="100" value="1">
+                <input id="pocet" type="number" placeholder="  počet  " min="1" max="100" value="1" onClick="Kosik1();Cena()">
                 <script>Kosik1()</script>
             </td>
         </tr>
@@ -100,25 +100,25 @@
             </td>
             <td>
                 <B>
-                    Celková cena: 
+                    Celková cena:
                 </B>
             </td>
-            <td id="cena">
-            </td>
-        </tr>
-        <tr>
             <td>
-            </td>
-            <td>
-            </td>
-            <td>
-                <a href="Formulář.html">
-                    <button class="button">
-                        Pokračovat
-                    </button>
-                </a>
+                <span id="cena" value="">
+                    <script>Cena()</script>
+                </span>
             </td>
         </tr>
     </table>
+    <br>
+    <center>
+    <a href="Formulář.html">
+        <button>
+            <p class="tr3">
+                Pokračovat
+            </p>
+        </button>
+    </a>
+    </center>
 </body>
 </html>
