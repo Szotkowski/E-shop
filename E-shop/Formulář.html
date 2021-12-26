@@ -6,8 +6,8 @@
         SmartCard
     </title>
     <link rel="stylesheet" href="css\Style.css">
-    <link rel="shortcut icon" href="pictures\Smartcard.png" type="image/x-icon">
-    <link rel="icon" href="pictures\Smartcard.png" type="image/x-icon">
+    <link rel="shortcut icon" href="pictures\Hlava.png" type="image/x-icon">
+    <link rel="icon" href="pictures\Hlava.png" type="image/x-icon">
     <meta name="theme-color" content="#31A0A7">
     <meta name="description" content="eshop">
     <meta name="keywords" content="HTML,CSS,JavaScript">
@@ -53,78 +53,84 @@
     <h1 class="h1">
         Formulář
     </h1>
-    <body>
-        <table class="tabulka1">
-            <form action="mailto:mikiszotkowski@gmail.com" method="post">
-            <tr class="tr3">
-                <td>
-                    Jméno:
-                </td>
-                <td>
-                    <input type="text" required>
-                </td>
-            </tr>
-            <tr class="tr3">
-                <td>
-                    Příjmení:
-                </td>
-                <td>
-                    <input type="text" required>
-                </td>
-            </tr>
-            <tr class="tr3">
-                <td>
-                    Ulice a číslo popisného:
-                </td>
-                <td>
-                    <input type="text" required>
-                </td>
-            </tr>
-            <tr class="tr3">
-                <td>
-                    PSČ:
-                </td>
-                <td>
-                    <input type="text" required>
-                </td>
-            </tr>
-            <tr class="tr3">
-                <td>
-                    Město:
-                </td>
-                <td>
-                    <input type="text" required>
-                </td>
-            </tr>
-            <tr class="tr3">
-                <td>
-                    Email:
-                </td>
-                <td>
-                    <input type="Email" required>
-                </td>
-            </tr>
-            <tr class="tr3">
-                <td>
-                    Telefon:
-                </td>
-                <td>
-                    <input type="Telefon" required>
-                    <input type="button" value="Send Email" 
-        onclick="sendEmail()" />
-                </td>
-            </tr>
-            </form>
-        </table>
-        <br>
-        <center>
-        <a href="">
-            <button class="button2">
-                <p class="tr3">
-                    K platbě
-                </p>
-            </button>
-        </a>
-        </center>
-    </body>
 </header>
+<body>
+    <script src="javascript\Javascript.js">
+
+    </script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+        
+    </script>
+    <table class="tabulka1">
+        <form method="post">
+        <tr class="tr3">
+            <td>
+                Jméno:
+            </td>
+            <td>
+                <input type="text" required>
+            </td>
+        </tr>
+        <tr class="tr3">
+            <td>
+                Příjmení:
+            </td>
+            <td>
+                <input type="text" required>
+            </td>
+        </tr>
+        <tr class="tr3">
+            <td>
+                Ulice a číslo popisného:
+            </td>
+            <td>
+                <input type="text" required>
+            </td>
+        </tr>
+        <tr class="tr3">
+            <td>
+                PSČ:
+            </td>
+            <td>
+                <input type="text" required>
+            </td>
+        </tr>
+        <tr class="tr3">
+            <td>
+                Město:
+            </td>
+            <td>
+                <input type="text" required>
+            </td>
+        </tr>
+        <tr class="tr3">
+            <td>
+                Email:
+            </td>
+            <td>
+                <input type="Email" required>
+            </td>
+        </tr>
+        <tr class="tr3">
+            <td>
+                Telefon:
+            </td>
+            <td>
+                <input type="Telefon" required>
+                <input type="button" value="Send Email" 
+        onclick="sendEmail()" />
+            </td>
+        </tr>
+        </form>
+    </table>
+    <br>
+    <center>
+    <a href="">
+        <button class="button2">
+            <p class="tr3">
+                K platbě
+            </p>
+        </button>
+    </a>
+    </center>
+</body>
