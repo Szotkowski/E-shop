@@ -59,7 +59,7 @@
 
     </script>
     <script src="https://smtpjs.com/v3/smtp.js">
-        
+
     </script>
     <table class="tabulka1">
         <form method="post">
@@ -68,7 +68,7 @@
                 Jméno:
             </td>
             <td>
-                <input type="text" required>
+                <input type="text" id="jmeno" required>
             </td>
         </tr>
         <tr class="tr3">
@@ -76,7 +76,7 @@
                 Příjmení:
             </td>
             <td>
-                <input type="text" required>
+                <input type="text" id="prijmeni" required>
             </td>
         </tr>
         <tr class="tr3">
@@ -84,7 +84,7 @@
                 Ulice a číslo popisného:
             </td>
             <td>
-                <input type="text" required>
+                <input type="text" id="ulice" required>
             </td>
         </tr>
         <tr class="tr3">
@@ -92,7 +92,7 @@
                 PSČ:
             </td>
             <td>
-                <input type="text" required>
+                <input type="text" id="PSC" required>
             </td>
         </tr>
         <tr class="tr3">
@@ -100,7 +100,7 @@
                 Město:
             </td>
             <td>
-                <input type="text" required>
+                <input type="text" id="mesto" required>
             </td>
         </tr>
         <tr class="tr3">
@@ -108,7 +108,7 @@
                 Email:
             </td>
             <td>
-                <input type="Email" required>
+                <input type="Email" id="email" required>
             </td>
         </tr>
         <tr class="tr3">
@@ -116,9 +116,7 @@
                 Telefon:
             </td>
             <td>
-                <input type="Telefon" required>
-                <input type="button" value="Send Email" 
-        onclick="sendEmail()" />
+                <input type="Telefon" id="telefon" required>
             </td>
         </tr>
         </form>
@@ -126,7 +124,7 @@
     <br>
     <center>
     <a href="">
-        <button class="button2">
+        <button class="button2" onclick="sendEmail()">
             <p class="tr3">
                 K platbě
             </p>

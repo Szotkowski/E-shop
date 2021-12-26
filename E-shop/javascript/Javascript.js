@@ -16,7 +16,14 @@ function Cena() {
     document.getElementById("cena").innerText=price*oneprice;
 }
 
-function sendEmail() { 
+function sendEmail() {
+  var jmeno = document.getElementById("jmeno").value;
+  var prijmeni = document.getElementById("prijmeni").value;
+  var ulice = document.getElementById("ulice").value;
+  var PSC = document.getElementById("PSC").value;
+  var mesto = document.getElementById("mesto").value;
+  var email = document.getElementById("email").value;
+  var telefon = document.getElementById("telefon").value;
 	Email.send({ 
 		Host: "smtp.seznam.cz",
 		Username: "smartcard@post.cz",
