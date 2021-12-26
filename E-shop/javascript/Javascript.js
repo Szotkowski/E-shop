@@ -30,3 +30,28 @@ function sendEmail() {
         alert("mail sent successfully")
       });
   }
+
+  var ConvertedFileStream;
+  var g_recipient;
+  var g_subject;
+  var g_body;
+  var g_attachmentname;
+  
+  
+  function SendMailItem(p_recipient, p_subject, p_body, p_file, p_attachmentname, progressSymbol) {
+  
+      // Email address of the recipient 
+      g_recipient = p_recipient;
+  
+     // Subject line of an email
+      g_subject = p_subject;
+  
+     // Body description of an email
+      g_body = p_body;
+  
+      // attachments of an email
+      g_attachmentname = p_attachmentname;
+  
+      SendC360Email(g_recipient, g_subject, g_body, g_attachmentname);
+  
+}
