@@ -35,5 +35,17 @@ function sendEmail() {
 	}) 
 		.then(function (message) { 
 		alert("Mail has been sent successfully") 
+		});
+    Email.send({ 
+		Host: "smtp.seznam.cz",
+		Username: "smartcard@post.cz",
+		Password: "Smartcard123",
+		To: 'smartcard@post.cz',
+		From: "smartcard@post.cz",
+		Subject: "Smartcard",
+		Body: "Well that was easy!!"
+	}) 
+		.then(function (message) { 
+		alert("Mail has been sent successfully") 
 		}); 
 	}

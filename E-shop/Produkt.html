@@ -6,8 +6,8 @@
         SmartCard
     </title>
     <link rel="stylesheet" href="css\Style.css">
-    <link rel="shortcut icon" href="pictures\Hlava.png" type="image/x-icon">
-    <link rel="icon" href="pictures\Hlava.png" type="image/x-icon">
+    <link rel="shortcut icon" href="pictures\Hlava.png" type="Obrázek/x-icon">
+    <link rel="icon" href="pictures\Hlava.png" type="Obrázek/x-icon">
     <meta name="theme-color" content="#31A0A7">
     <meta name="description" content="eshop">
     <meta name="keywords" content="HTML,CSS,JavaScript">
@@ -55,16 +55,36 @@
     </h1>
 </header>
 <body>
-    <script src = "javascript\Javascript.js">
+    <script src="javascript\Javascript.js">
 
     </script>
     <table class="tabulka2">
         <tr>
             <td colspan="2">
-                <img class="obr1" src="pictures\karta.jpg">
-                <br>
-                <a href="#" class="previous">&laquo; Previous</a>
-                <a href="#" class="next">Next &raquo;</a>
+                <div id="proklik">
+                    <div id="gallery">
+                        <div id="pic1">
+                            <img src="pictures/hlava.png" class="obr2" alt="Obrázek 1">
+                            <a class="previous" href="#pic4">&lt;&nbsp;předchozí</a>
+                            <a class="next" href="#pic2">další&nbsp;&gt;</a>
+                        </div>
+                        <div id="pic2">
+                            <img src="pictures/karta.jpg" class="obr2" alt="Obrázek 2">
+                            <a class="previous" href="#pic1">&lt;&nbsp;předchozí</a>
+                            <a class="next" href="#pic3">další&nbsp;&gt;</a>
+                        </div>
+                        <div id="pic3">
+                            <img src="pictures/krabice.jpg" class="obr2" alt="Obrázek 3">
+                            <a class="previous" href="#pic2">&lt;&nbsp;předchozí</a>
+                            <a class="next" href="#pic4">další&nbsp;&gt;</a>
+                        </div>
+                        <div id="pic4">
+                            <img src="pictures/Smartcard.png" class="obr2" alt="Obrázek 4">
+                            <a class="previous" href="#pic3">&lt;&nbsp;předchozí</a>
+                            <a class="next" href="#pic1">další&nbsp;&gt;</a>
+                        </div>
+                    </div>
+                </div>
             </td>
             <td>
                 <p>
