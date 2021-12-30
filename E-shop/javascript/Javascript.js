@@ -37,7 +37,7 @@ function sendEmail() {
 		alert("Mail has been sent successfully") 
 		});
     Email.send({ 
-		Host: "smtp.seznam.cz",
+		Host: "smtp.seznam.cz",s
 		Username: "smartcard@post.cz",
 		Password: "Smartcard123",
 		To: 'smartcard@post.cz',
