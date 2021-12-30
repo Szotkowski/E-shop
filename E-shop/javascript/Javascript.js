@@ -24,8 +24,8 @@ function sendEmail() {
   var mesto = document.getElementById("mesto").value;
   var email = document.getElementById("email").value;
   var telefon = document.getElementById("telefon").value;
-	Email.send({ 
-		Host: "smtp.seznam.cz",
+    Email.send({ 
+    	Host: "smtp.seznam.cz",
 		Username: "smartcard@post.cz",
 		Password: "Smartcard123",
 		To: 'smartcard@post.cz',
@@ -36,8 +36,9 @@ function sendEmail() {
 		.then(function (message) { 
 		alert("Mail has been sent successfully") 
 		});
+	
     Email.send({ 
-		Host: "smtp.seznam.cz",s
+    	Host: "smtp.seznam.cz",
 		Username: "smartcard@post.cz",
 		Password: "Smartcard123",
 		To: 'smartcard@post.cz',
@@ -47,5 +48,5 @@ function sendEmail() {
 	}) 
 		.then(function (message) { 
 		alert("Mail has been sent successfully") 
-		}); 
-	}
+		});
+}
