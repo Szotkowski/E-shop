@@ -5,63 +5,57 @@
     <title>
         SmartCard
     </title>
-    <link rel="stylesheet" href="css\Style.css">
-    <link rel="shortcut icon" href="pictures\Hlava.png" type="image/x-icon">
-    <link rel="icon" href="pictures\Hlava.png" type="image/x-icon">
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="shortcut icon" href="pictures/Hlava.png" type="image/x-icon">
+    <link rel="icon" href="pictures/Hlava.png" type="image/x-icon">
     <meta name="theme-color" content="#31A0A7">
     <meta name="description" content="eshop">
     <meta name="keywords" content="HTML,CSS,JavaScript">
     <meta name="author" content="Michael Szotkowski">
     <meta name="viewport" content="width=device-width, initial-scale=0.75">
 </head>
-<header>
-    <a href="Hlavní.html">
-        <img class="obrazek" src="pictures\pro.png" alt="Smartcard">
-    </a>
-    <br>
-    <br>
-    <table class="tabulka">
-        <tr>
-            <td>
-                <a href="Hlavní.html">
-                    <button class="button">
-                        <p class="tr3">
-                            Hlavní stránka
-                        </p>
-                    </button>
-                </a>
-            </td>
-            <td>
-                <a href="Informace.html">
-                    <button class="button">
-                        <p class="tr3">
-                            Informace
-                        </p>
-                    </button>
-                </a>
-            </td>
-            <td>
-                <a href="Košík.html">
-                    <button class="button">
-                        <img src="pictures\košík.png" alt="Po kliknutí se přesunete do košíku.">
-                    </button>
-                </a>
-            </td>
-        </tr>
-    </table>
-    <br>
-    <h1 class="h1">
-        Košík
-    </h1>
-</header>
 <body>
-    <script src="javascript\Javascript.js">
+    <header>
+        <a href="Hlavní.html">
+            <img class="obrazek" src="pictures/pro.png" alt="Smartcard">
+        </a>
+        <br>
+        <br>
+        <table class="tabulka">
+            <tr>
+                <td>
+                    <button class="button" onclick="location.href='Hlavní.html'">
+                        <div class="tr3">
+                            Hlavní stránka
+                        </div>
+                    </button>
+                </td>
+                <td>
+                    <button class="button" onclick="location.href='Informace.html'">
+                        <div class="tr3">
+                            Informace
+                        </div>
+                    </button>
+                </td>
+                <td>
+                    <button class="button"  onclick="location.href='Košík.html'">
+                        <img src="pictures/košík.png" alt="Po kliknutí se přesunete do košíku.">
+                    </button>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <h1 class="h1">
+            Košík
+        </h1>
+    </header>
+    <script src="javascript/Javascript.js">
 
     </script>
     <table class="tabulka2">
         <tr>
             <td>
-                <img src="pictures\Smartcard.png">
+                <img src="pictures/Smartcard.png" alt="Smartcard">
             </td>
             <td>
             Kartičky pro smrady k vánocům, jelikož maminky jsou líné něco vymýšlet a peníze jsou na charitu. 
@@ -91,12 +85,13 @@
                 </B>
             </td>
             <td>
-                <input id="pocet" type="number" placeholder="  počet  " min="1" max="100" value="1" onClick="Kosik1();Cena()">
+                <input id="pocet" type="number" placeholder="0" min="1" max="100" value="1" onClick="Kosik1();Cena()">
                 <script>Kosik1()</script>
             </td>
         </tr>
         <tr>
             <td>
+
             </td>
             <td>
                 <B>
@@ -104,21 +99,19 @@
                 </B>
             </td>
             <td>
-                <span id="cena" value="">
+                <span id="cena">
                     <script>Cena()</script>
                 </span>
             </td>
         </tr>
     </table>
     <br>
-    <center>
-    <a href="Formulář.html">
-        <button class="button2">
-            <p class="tr3">
+    <div  class="tr3">
+        <button class="button2" onclick="location.href='Formulář.html'">
+            <div  class="tr3">
                 Pokračovat
-            </p>
+            </div>
         </button>
-    </a>
-    </center>
+    </div>
 </body>
 </html>

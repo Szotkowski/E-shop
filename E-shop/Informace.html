@@ -5,53 +5,47 @@
     <title>
         SmartCard
     </title>
-    <link rel="stylesheet" href="css\Style.css">
-    <link rel="shortcut icon" href="pictures\Hlava.png" type="image/x-icon">
-    <link rel="icon" href="pictures\Hlava.png" type="image/x-icon">
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="shortcut icon" href="pictures/Hlava.png" type="image/x-icon">
+    <link rel="icon" href="pictures/Hlava.png" type="image/x-icon">
     <meta name="theme-color" content="#31A0A7">
     <meta name="description" content="eshop">
     <meta name="keywords" content="HTML,CSS,JavaScript">
     <meta name="author" content="Michael Szotkowski">
     <meta name="viewport" content="width=device-width, initial-scale=0.75">
 </head>
-<header>
-    <a href="Hlavní.html">
-        <img class="obrazek" src="pictures\pro.png" alt="Smartcard">
-    </a>
-    <br>
-    <br>
-    <table class="tabulka">
-        <tr>
-            <td>
-                <a href="Hlavní.html">
-                    <button class="button">
-                        <p class="tr3">
-                            Hlavní stránka
-                        </p>
-                    </button>
-                </a>
-            </td>
-            <td>
-                <a href="Informace.html">
-                    <button class="button">
-                        <p class="tr3">
-                            Informace
-                        </p>
-                    </button>
-                </a>
-            </td>
-            <td>
-                <a href="Košík.html">
-                    <button class="button">
-                        <img src="pictures\košík.png" alt="Po kliknutí se přesunete do košíku.">
-                    </button>
-                </a>
-            </td>
-        </tr>
-    </table>
-    <br>
-</header>
 <body>
+    <header>
+        <a href="Hlavní.html">
+            <img class="obrazek" src="pictures/pro.png" alt="Smartcard">
+        </a>
+        <br>
+        <br>
+        <table class="tabulka">
+            <tr>
+                <td>
+                    <button class="button" onclick="location.href='Hlavní.html'">
+                        <div class="tr3">
+                            Hlavní stránka
+                        </div>
+                    </button>
+                </td>
+                <td>
+                    <button class="button" onclick="location.href='Informace.html'">
+                        <div class="tr3">
+                            Informace
+                        </div>
+                    </button>
+                </td>
+                <td>
+                    <button class="button"  onclick="location.href='Košík.html'">
+                        <img src="pictures/košík.png" alt="Po kliknutí se přesunete do košíku.">
+                    </button>
+                </td>
+            </tr>
+        </table>
+        <br>
+    </header>
     <h1 class="h1">
         Kdo jsme?
     </h1>
@@ -79,7 +73,7 @@
                 Email:
             </td>
             <td>
-                <a href="mailto: smartcard@post.cz">
+                <a href="mailto:smartcard@post.cz">
                     smartcard@post.cz
                 </a>
             </td>
@@ -89,8 +83,9 @@
                 Telefon:
             </td>
             <td>
-                <a href="tel: 731 085 724">
+                <a href="tel:731085724">
                     731 085 724
+                </a>
             </td>
         </tr>
         <tr class="tr1">

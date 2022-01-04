@@ -13,7 +13,8 @@ function Kosik1() {
 
 function Cena() {
     var price = sessionStorage.getItem("count1");
-    document.getElementById("cena").innerText=price*oneprice;
+    document.getElementById("cena").innerText=price*oneprice+" Kč";
+	sessionStorage.setItem("price", price*oneprice);
 }
 
 function sendEmail() {
