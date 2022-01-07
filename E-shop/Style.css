@@ -129,6 +129,10 @@ table td{
     text-align: center;
 }
 
+.obr3{
+    min-width: 100px;
+}
+
 .h1{
     text-align: center;
     color: black;
