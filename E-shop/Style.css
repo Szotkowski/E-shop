@@ -130,7 +130,7 @@ table td{
 }
 
 .obr3{
-    min-width: 100px;
+    max-width: 500px;
 }
 
 .h1{
