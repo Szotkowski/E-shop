@@ -38,7 +38,7 @@
                     </button>
                 </td>
                 <td>
-                    <button class="button"  onclick="location.href='Košík.html'">
+                    <button class="button" onclick="location.href='Košík.html'">
                         <img src="pictures/košík.png" alt="Po kliknutí se přesunete do košíku.">
                     </button>
                 </td>
@@ -55,7 +55,7 @@
     <script src="https://smtpjs.com/v3/smtp.js">
 
     </script>
-    <form method="post">
+    <form method="post" enctype="application/x-www-form-urlencoded">
         <table class="tabulka1">
         <tr class="tr3">
             <td>
@@ -114,13 +114,13 @@
             </td>
         </tr>
         </table>
+        <br>
+        <div class="tr3">
+            <button class="button2" onclick="sendEmail()">
+                <span class="tr3">
+                    K platbě
+                </span>
+            </button>
+        </div>
     </form>
-    <br>
-    <div class="tr3">
-        <button class="button2" onclick="sendEmail();location.href=''">
-            <span class="tr3">
-                K platbě
-            </span>
-        </button>
-    </div>
 </body>

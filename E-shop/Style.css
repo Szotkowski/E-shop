@@ -59,8 +59,8 @@ body{
 }
 
 .tabulka1{
-    width: 35%;
-    height: 375px;
+    width: 100%;
+    height: 350px;
     min-height: fit-content;
     min-width: 350px;
     max-height: fit-content;
