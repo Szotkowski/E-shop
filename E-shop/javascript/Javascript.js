@@ -39,7 +39,7 @@ function sendEmail() {
 			To: email,
 			From: "smartcard@post.cz",
 			Subject: "Smartcard",
-			Body: "Email.html"
+			Body: ""
 		}).then(alert("s"));
     	/*Email.send({
     		Host: "smtp.seznam.cz",
