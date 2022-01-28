@@ -52,10 +52,9 @@ body{
     text-align: center;
     margin: auto;
     background-color:#31A0A7;
-    border: 4px solid #31A0A7;
     border-collapse: collapse;
     table-layout: auto;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 .tabulka1{
@@ -87,7 +86,7 @@ body{
     border: 3px solid #31A0A7;
 }
 
-table td{
+.tabulka2 td{
 	padding: 5px;
     border: 2px solid #31A0A7;
 }
@@ -148,7 +147,7 @@ table td{
     background-image: linear-gradient(45deg, #4F8AF9 0%, #55CBF2 100%);
     border: none;
     display: inline-block;
-    border-radius: 30px;
+    border-radius: 40px;
     padding: 15px 25px;
 }
 
