@@ -22,36 +22,3 @@ function Cena1() {
 		location.href='Formulář.html';
 	}
 }
-
-function sendEmail() {
-	var jmeno = document.getElementByTagName("jmeno").value;
-	var prijmeni = document.getElementByTagName("prijmeni").value;
-  	var ulice = document.ggetElementByTagName("ulice").value;
-  	var PSC = document.getElementByTagName("PSC").value;
-  	var mesto = document.getElementByTagName("mesto").value;
-  	var email = document.getElementByTagName("email").value;
-  	var telefon = document.getElementByTagName("telefon").value;
-  	if (jmeno != "" && prijmeni != "" && ulice != "" && PSC != "" && mesto != "" && email != "" && telefon != "") {
-    	Email.send({
-    		Host: "smtp.seznam.cz",
-			Username: "smartcard@post.cz",
-			Password: "Smartcard123",
-			To: email,
-			From: "smartcard@post.cz",
-			Subject: "Smartcard",
-			Body: "<html>Super</html>"
-		}).then(alert("s"));
-    	/*Email.send({
-    		Host: "smtp.seznam.cz",
-			Username: "smartcard@post.cz",
-			Password: "Smartcard123",
-			To: 'smartcard@post.cz',
-			From: "smartcard@post.cz",
-			Subject: "Smartcard",
-			Body: ""
-		}).then(location.href='Informace.html')*/
-	}
-  	else {
-	  	window.alert("Chyba");
-  	}
-}
