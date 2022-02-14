@@ -2,7 +2,7 @@
     $to = $_POST['email']; 
     $subject = "Smartcard";
     $message = file_get_contents('https://www.smartcard-web.cz/Email.html');
-    $message1 = $_POST['jmeno'] . " " . $_POST['prijmeni'] . " " . $_POST['ulice'] . " " . $_POST['PSC'] . " " . $_POST['mesto'] . " " . $_POST['email'] . " " . $_POST['telefon'] . " " . $_POST['pocet'];
+    $message1 = $_POST['jmeno'] . " " . $_POST['prijmeni'] . " " . $_POST['ulice'] . " " . $_POST['PSC'] . " " . $_POST['mesto'] . " " . $_POST['email'] . " " . $_POST['telefon'] . " " . $_POST['price'];
     $from = "smartcard@smartcard-web.cz";
     $headers = "From: Smartcard <$from>\n";;
     $headers  .= 'MIME-Version: 1.0' . "\r\n";
@@ -17,11 +17,12 @@ if ($sent1) {
 ?>
 <html>
 <head>
-<title>Thank You</title>
+<title>Email byl úspěšně odeslán</title>
 </head>
 <body>
-<h1>Thank You</h1>
-<p>Thank you for your feedback.</p>
+<center>
+<h1>Email byl úspěšně odeslán</h1>
+</center>
 </body>
 <script language="javascript" type="text/JavaScript">
 <!--
