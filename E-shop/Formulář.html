@@ -164,9 +164,9 @@
                 Cena:
             </td>
             <td>
-                <span id="cena" name="price">
-                </span>
-                <script>Cena();</script>
+                <div id="cena">
+                </div>
+                <script>Cena()</script>
             </td>
         </tr>
         <tr>
@@ -191,7 +191,9 @@
         </tr>
         </table>
         <br>
-        <input class="button2" type="submit" value="K platbě" required>
+        <input type="hidden" id="pocet" name="price" required>
+        <script>Kosik1()</script>
+        <input class="button2" type="submit" value="K platbě">
     </form>
     </center>
 </body>
