@@ -1,4 +1,4 @@
-const oneprice = 250;
+const oneprice = 300;
 function Kosik() {
     var count = document.getElementById("pocet").value;
     sessionStorage.setItem("count", count);
@@ -19,6 +19,6 @@ function Cena() {
 
 function Cena1() {
 	if (sessionStorage.getItem("price") > 0) {
-		location.href='Formulář.html';
+		location.href='https://www.smartcard-web.cz/Formulář.html';
 	}
 }

@@ -18,8 +18,8 @@ if ($sent1 && ($_POST['doprava'] == "zasilkovna")) {
     <title>
         SmartCard
     </title>
-    <link rel="stylesheet" href="Style.css" />
-    <link rel="shortcut icon" href="pictures/hlava.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://www.smartcard-web.cz/Style.css" />
+    <link rel="shortcut icon" href="https://www.smartcard-web.cz/pictures/hlava.png" type="image/x-icon">
     <link rel="icon" href="pictures/Hlava.png" type="image/x-icon">
     <meta name="theme-color" content="#31A0A7">
     <meta name="description" content="eshop">
@@ -29,30 +29,30 @@ if ($sent1 && ($_POST['doprava'] == "zasilkovna")) {
 </head>
 <body>
     <header>
-        <a href="index.html">
-            <img class="obrazek" src="pictures/pro.png" alt="Smartcard">
+        <a href="https://www.smartcard-web.cz/index.html">
+            <img class="obrazek" src="https://www.smartcard-web.cz/pictures/pro.png" alt="Smartcard">
         </a>
         <br>
         <br>
         <table class="tabulka">
             <tr>
                 <td>
-                    <button class="button" onclick="location.href='index.html'">
+                    <button class="button" onclick="location.href='https://www.smartcard-web.cz/index.html'">
                         <span class="tr3">
                             Hlavní stránka
                         </span>
                     </button>
                 </td>
                 <td>
-                    <button class="button" onclick="location.href='Informace.html'">
+                    <button class="button" onclick="location.href='https://www.smartcard-web.cz/Informace.html'">
                         <span class="tr3">
                             Informace
                         </span>
                     </button>
                 </td>
                 <td>
-                    <button class="button" onclick="location.href='Košík.html'">
-                        <img src="pictures/košík.png" alt="Po kliknutí se přesunete do košíku.">
+                    <button class="button" onclick="location.href='https://www.smartcard-web.cz/Košík.html'">
+                        <img src="https://www.smartcard-web.cz/pictures/košík.png" alt="Po kliknutí se přesunete do košíku.">
                     </button>
                 </td>
             </tr>
@@ -79,8 +79,8 @@ if ($sent1 && ($_POST['doprava'] == "zasilkovna")) {
     <title>
         SmartCard
     </title>
-    <link rel="stylesheet" href="Style.css" />
-    <link rel="shortcut icon" href="pictures/hlava.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://www.smartcard-web.cz/Style.css" />
+    <link rel="shortcut icon" href="https://www.smartcard-web.cz/pictures/hlava.png" type="image/x-icon">
     <link rel="icon" href="pictures/Hlava.png" type="image/x-icon">
     <meta name="theme-color" content="#31A0A7">
     <meta name="description" content="eshop">
@@ -90,30 +90,30 @@ if ($sent1 && ($_POST['doprava'] == "zasilkovna")) {
 </head>
 <body>
     <header>
-        <a href="index.html">
-            <img class="obrazek" src="pictures/pro.png" alt="Smartcard">
+        <a href="https://www.smartcard-web.cz/index.html">
+            <img class="obrazek" src="https://www.smartcard-web.cz/pictures/pro.png" alt="Smartcard">
         </a>
         <br>
         <br>
         <table class="tabulka">
             <tr>
                 <td>
-                    <button class="button" onclick="location.href='index.html'">
+                    <button class="button" onclick="location.href='https://www.smartcard-web.cz/index.html'">
                         <span class="tr3">
                             Hlavní stránka
                         </span>
                     </button>
                 </td>
                 <td>
-                    <button class="button" onclick="location.href='Informace.html'">
+                    <button class="button" onclick="location.href='https://www.smartcard-web.cz/Informace.html'">
                         <span class="tr3">
                             Informace
                         </span>
                     </button>
                 </td>
                 <td>
-                    <button class="button" onclick="location.href='Košík.html'">
-                        <img src="pictures/košík.png" alt="Po kliknutí se přesunete do košíku.">
+                    <button class="button" onclick="location.href='https://www.smartcard-web.cz/Košík.html'">
+                        <img src="https://www.smartcard-web.cz/pictures/košík.png" alt="Po kliknutí se přesunete do košíku.">
                     </button>
                 </td>
             </tr>
@@ -140,8 +140,8 @@ if ($sent1 && ($_POST['doprava'] == "zasilkovna")) {
     <title>
         SmartCard
     </title>
-    <link rel="stylesheet" href="Style.css" />
-    <link rel="shortcut icon" href="pictures/hlava.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://www.smartcard-web.cz/Style.css" />
+    <link rel="shortcut icon" href="https://www.smartcard-web.cz/pictures/hlava.png" type="image/x-icon">
     <link rel="icon" href="pictures/Hlava.png" type="image/x-icon">
     <meta name="theme-color" content="#31A0A7">
     <meta name="description" content="eshop">
@@ -151,30 +151,30 @@ if ($sent1 && ($_POST['doprava'] == "zasilkovna")) {
 </head>
 <body>
     <header>
-        <a href="index.html">
-            <img class="obrazek" src="pictures/pro.png" alt="Smartcard">
+        <a href="https://www.smartcard-web.cz/index.html">
+            <img class="obrazek" src="https://www.smartcard-web.cz/pictures/pro.png" alt="Smartcard">
         </a>
         <br>
         <br>
         <table class="tabulka">
             <tr>
                 <td>
-                    <button class="button" onclick="location.href='index.html'">
+                    <button class="button" onclick="location.href='https://www.smartcard-web.cz/index.html'">
                         <span class="tr3">
                             Hlavní stránka
                         </span>
                     </button>
                 </td>
                 <td>
-                    <button class="button" onclick="location.href='Informace.html'">
+                    <button class="button" onclick="location.href='https://www.smartcard-web.cz/Informace.html'">
                         <span class="tr3">
                             Informace
                         </span>
                     </button>
                 </td>
                 <td>
-                    <button class="button" onclick="location.href='Košík.html'">
-                        <img src="pictures/košík.png" alt="Po kliknutí se přesunete do košíku.">
+                    <button class="button" onclick="location.href='https://www.smartcard-web.cz/Košík.html'">
+                        <img src="https://www.smartcard-web.cz/pictures/košík.png" alt="Po kliknutí se přesunete do košíku.">
                     </button>
                 </td>
             </tr>
