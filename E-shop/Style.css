@@ -272,7 +272,7 @@ fieldset {
 
 .container {
     display: block;
-    position: center;
+    position: relative;
     padding-left: 35px;
     margin-bottom: 12px;
     cursor: pointer;

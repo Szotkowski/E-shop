@@ -20,7 +20,6 @@ if ($sent1 && ($_POST['doprava'] == "zasilkovna")) {
     </title>
     <link rel="stylesheet" href="https://www.smartcard-web.cz/Style.css" />
     <link rel="shortcut icon" href="https://www.smartcard-web.cz/pictures/hlava.png" type="image/x-icon">
-    <link rel="icon" href="pictures/Hlava.png" type="image/x-icon">
     <meta name="theme-color" content="#31A0A7">
     <meta name="description" content="eshop">
     <meta name="keywords" content="HTML,CSS,JavaScript">
@@ -81,7 +80,6 @@ if ($sent1 && ($_POST['doprava'] == "zasilkovna")) {
     </title>
     <link rel="stylesheet" href="https://www.smartcard-web.cz/Style.css" />
     <link rel="shortcut icon" href="https://www.smartcard-web.cz/pictures/hlava.png" type="image/x-icon">
-    <link rel="icon" href="pictures/Hlava.png" type="image/x-icon">
     <meta name="theme-color" content="#31A0A7">
     <meta name="description" content="eshop">
     <meta name="keywords" content="HTML,CSS,JavaScript">
@@ -142,7 +140,6 @@ if ($sent1 && ($_POST['doprava'] == "zasilkovna")) {
     </title>
     <link rel="stylesheet" href="https://www.smartcard-web.cz/Style.css" />
     <link rel="shortcut icon" href="https://www.smartcard-web.cz/pictures/hlava.png" type="image/x-icon">
-    <link rel="icon" href="pictures/Hlava.png" type="image/x-icon">
     <meta name="theme-color" content="#31A0A7">
     <meta name="description" content="eshop">
     <meta name="keywords" content="HTML,CSS,JavaScript">
