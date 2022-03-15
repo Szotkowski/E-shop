@@ -4,7 +4,7 @@
     $message = file_get_contents('https://www.smartcard-web.cz/Email.html');
     $message1 = "Jméno: " . $_POST['jmeno'] . "<br />" . "Příjmení: " . $_POST['prijmeni'] . "<br />" . "Ulice a číslo popisné: " . $_POST['ulice'] . "<br />" . "PSČ: " . $_POST['PSC'] . "<br />" . "Město: " . $_POST['mesto'] . "<br />" . "Email: " . $_POST['email'] ."<br />" . "Telefon: " . $_POST['telefon'] ."<br />". "pocet: " . $_POST['price'] . "<br />" . "doprava: " . $_POST['doprava'] . "<br />" . "platba: " . $_POST['platba'];
     $from = "smartcard@smartcard-web.cz";
-    $headers = "From: Smartcard <$from>\n";;
+    $headers = "From: Smartcard <$from>\n";
     $headers  .= 'MIME-Version: 1.0' . "\r\n";
     $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
 $sent = mail($to, $subject, $message, $headers);

@@ -197,9 +197,22 @@
                     <input type="radio" class="container" value="osobni" name="doprava" required>
                     <span class="checkmark"></span>
                 </label>
+                <script>
+                    function showSelectedPickupPoint(point){
+                        if (point) {
+                            $(this + ' .packeta-point-id').val(point.id);
+                            $(this + ' .packeta-point-info').text("" + point.name + "\n" + point.zip + " " + point.city);
+                        }
+                        else {
+                            $(this + ' .packeta-point-id').val();
+                            $(this + ' .packeta-point-info').text();
+                        }
+                    }
+                </script>
                 <label class="container">Zásilkovna
-                    <input type="radio" class="container" value="zasilkovna" name="doprava" required>
+                    <input type="radio" class="container" value="zasilkovna" name="doprava" onclick="Packeta.Widget.pick('5d801eddbd0e6118', showSelectedPickupPoint.bind('#zasilkovna-html-cz-cs'), {country: 'cz', language: 'cs'})" required>
                     <span class="checkmark"></span>
+                    <script src="https://widget.packeta.com/v6/www/js/library.js"></script>
                 </label>
             </td>
         </tr>
